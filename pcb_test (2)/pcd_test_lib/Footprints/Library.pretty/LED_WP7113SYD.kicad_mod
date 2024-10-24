@@ -1,0 +1,126 @@
+(footprint "LED_WP7113SYD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "LED_WP7113SYD"
+		(at -0.6744 -4.2064 0)
+		(layer "F.SilkS")
+		(uuid "6762b3e6-bbfc-4d39-a74d-254769efa27d")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at -0.268 4.1936 0)
+		(layer "F.SilkS")
+		(uuid "0f0ef6a4-a508-4c8a-a4bb-1924a1f4034c")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71cbf67c-935b-4d9d-9da5-66c542d71f2d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0e6b72d-d7b6-4e9a-9b59-53c4d01ec77b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9b8bca8-1759-484b-934f-bee6a7e3d58d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_circle
+		(center -2.9 -1.6)
+		(end -2.773 -1.6)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2569c44e-ffbb-4392-b657-8a8327c6ecf6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3b24f3e2-3cb7-48d9-9d15-4234559da2cc")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.95 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "36c64412-543f-4561-ac3b-ec3de81a27af")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.6 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "Eco1.User")
+		(uuid "c41af661-8461-4860-b5a0-bfa37e8c8e7a")
+	)
+	(pad "A" thru_hole circle
+		(at 1.27 0 180)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "270d89ea-dd9c-4110-a205-e8dda099e9fb")
+	)
+	(pad "C" thru_hole rect
+		(at -1.27 0 180)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "1d6f7560-20b4-4afd-b4b3-78a58b2f5789")
+	)
+)
